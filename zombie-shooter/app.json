@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Dead Zone Shooter",
+    "slug": "dead-zone-shooter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0a1a",
+    "splash": {
+      "backgroundColor": "#0a0a1a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hebabouadil.deadzoneshooter",
+      "infoPlist": {
+        "UIRequiresFullScreen": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a1a"
+      },
+      "package": "com.hebabouadil.deadzoneshooter",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "plugins": [
+      "expo-haptics"
+    ]
+  }
+}
